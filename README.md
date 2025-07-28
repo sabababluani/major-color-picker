@@ -12,20 +12,20 @@ npm install major-color-picker
 
 # Usage
 
-```js
+```react
 import { getDominantColorFromImage } from 'major-color-picker';
 
-const input = document.createElement('input');
-input.type = 'file';
-input.accept = 'image/*';
-input.onchange = async (event) => {
-  const file = (event.target as HTMLInputElement).files?.[0];
-  if (file) {
-    const dominantColor = await getDominantColorFromImage(file);
-    console.log('Dominant HEX color:', dominantColor);
-  }
-};
-document.body.appendChild(input);
+<input
+  type="file"
+  accept="image/*"
+  onChange={async (e) => {
+    const file = e.target.files?.[0];
+    if (file) {
+      const color = await getDominantColorFromImage(file);
+      console.log('Dominant color:', color);
+    }
+  }}
+/>
 ```
 
 # API
