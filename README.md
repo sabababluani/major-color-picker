@@ -12,7 +12,7 @@ npm install major-color-picker
 
 # Usage
 
-```react
+```js
 import { getDominantColorFromImage } from 'major-color-picker';
 
 <input
