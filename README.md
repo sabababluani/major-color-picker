@@ -29,7 +29,8 @@ import { getDominantColorFromImage } from 'major-color-picker';
 ```
 
 # API
-getDominantColorFromImage(imgFile: File): Promise<string>
+
+    getDominantColorFromImage(imgFile: File): Promise<string>
 
 Parameters:
 
