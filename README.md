@@ -52,12 +52,3 @@ Returns:
 # License
 
 MIT
-
-
----
-
-Let me know if you'd like to add:
-- Browser support info
-- RGB output option
-- Example screenshots
-- CDN usage (for non-NPM environments)
