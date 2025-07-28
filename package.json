@@ -1,0 +1,38 @@
+{
+  "name": "major-color-picker",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "color",
+    "dominant-color",
+    "image",
+    "picker",
+    "palette",
+    "color-picker",
+    "color-palette",
+    "color-extractor",
+    "color-extraction",
+    "color-detection",
+    "color-detection-library",
+    "color-detection-tool",
+    "color-detection-algorithm",
+    "color-detection-api",
+    "color-detection-service",
+    "color-detection-software",
+    "color-detection-framework",
+    "color-detection-system",
+    "color-detection-toolkit",
+    "color-detection-library",
+    "color-detection-utility",
+    "color-detection-function"
+  ],
+  "author": "Saba Babluani",
+  "license": "MIT"
+}
