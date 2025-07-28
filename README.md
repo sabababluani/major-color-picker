@@ -52,3 +52,6 @@ Returns:
 # License
 
 MIT
+
+
+If you have any ideas or adjustment feel free to contribute
