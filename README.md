@@ -12,6 +12,7 @@ npm install major-color-picker
 
 # Usage
 
+```js
 import { getDominantColorFromImage } from 'major-color-picker';
 
 const input = document.createElement('input');
@@ -25,6 +26,7 @@ input.onchange = async (event) => {
   }
 };
 document.body.appendChild(input);
+```
 
 # API
 getDominantColorFromImage(imgFile: File): Promise<string>
