@@ -28,7 +28,17 @@ import { getDominantColorFromImage } from 'major-color-picker';
 />
 ```
 
+# API
 
+    getDominantColorFromImage(imgFile: File): Promise<string>
+
+Parameters:
+
+    imgFile (File): An image file object (from an input field or file picker).
+
+Returns:
+
+    Promise<string>: A Promise that resolves to the most dominant color in HEX format (e.g., #ff5733).
 
 # How It Works
 
