@@ -1,4 +1,4 @@
-export async function getAverageColorFromImage(imgFile: File): Promise<string> {
+export async function getDominantColorFromImage(imgFile: File): Promise<string> {
   return new Promise((resolve, reject) => {
     const img = new Image();
     const reader = new FileReader();
@@ -18,11 +18,12 @@ export async function getAverageColorFromImage(imgFile: File): Promise<string> {
 
       const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
       const data = imageData.data;
+      const step = 10;
 
       let rTotal = 0, gTotal = 0, bTotal = 0;
       let pixelCount = 0;
 
-      for (let i = 0; i < data.length; i += 4) {
+      for (let i = 0; i < data.length; i += 4 * step) {
         rTotal += data[i];
         gTotal += data[i + 1];
         bTotal += data[i + 2];
