@@ -1,7 +1,7 @@
 {
   "name": "major-color-picker",
-  "version": "1.0.1",
-  "description" :"major-color-picker is a lightweight JavaScript utility that detects the most dominant color from an image using the HTML Canvas API. Ideal for generating color palettes, styling backgrounds, or enhancing visual UI effects based on image content.",
+  "version": "1.0.2",
+  "description": "major-color-picker is a lightweight JavaScript utility that detects the most dominant color from an image using the HTML Canvas API. Ideal for generating color palettes, styling backgrounds, or enhancing visual UI effects based on image content.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
