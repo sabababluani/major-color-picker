@@ -50,9 +50,4 @@ Returns:
 
     The dominant RGB color is converted to a HEX string.
 
-# License
-
-MIT
-
-
 If you have any ideas or adjustment feel free to contribute
